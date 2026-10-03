@@ -14,7 +14,7 @@ from mutagen.id3 import ID3, APIC, ID3NoHeaderError
 from mutagen.mp3 import MP3
 
 # ===== НАСТРОЙКИ =====
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8958577492:AAFVhYf3J27axjcWGFWyw6b_9xkOiHy70e4")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MAX_DURATION = 10 * 60          # лимит 10 минут
 SEARCH_RESULTS = 5              # сколько результатов показывать
 DOWNLOAD_DIR = os.path.join(tempfile.gettempdir(), "musicbot")
